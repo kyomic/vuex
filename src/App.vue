@@ -1,8 +1,12 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <MainMenu></MainMenu>
     <router-view/>
+
+    
+    <button-counter></button-counter>
   </div>
+
 </template>
 
 <script>
